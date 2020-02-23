@@ -7,13 +7,19 @@ public class CheckArrayIsSortedOrNot {
         // int[] nums = {13,31,8,5,21,2} ;
         int[] nums = {7, 2, 3, 4, 5, 6};
         System.out.println("nums = " + Arrays.toString(nums));
+
         // storing the size of an array into a variable
+
         int numsItemCount = nums.length;
+
         // I want to copy the content of nums array into the new array
 
         // creating an array with same size as original array
+
         int[] numsCopy = new int[numsItemCount];
+
         // copying the value of one array into the new array
+
         for (int x = 0; x < numsItemCount; x++) {
             numsCopy[x] = nums[x]; // this line is copying nums array items into numsCopy array one by one
         }

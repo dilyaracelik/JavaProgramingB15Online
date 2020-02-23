@@ -2,8 +2,6 @@ package thingsToRemember;
 
 public class Print_Hollow_Rectangle {
     public static void main(String[] args) {
-
-        //        Create a method printHollowRect that prints a 5 on 5 hollow rectangle:
 //
 //
 //*****

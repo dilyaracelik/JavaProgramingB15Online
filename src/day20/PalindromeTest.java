@@ -21,6 +21,7 @@ public class PalindromeTest {
             System.out.println("reversedName = " + reversedName);
 
             // MAKE THIS CODE DOES NOT CARE ABOUT SPACES WHILE CHECKING
+        // name= name.replace(" ", ""); spaceleri atarsak nurses run mesela palindrome olur
 
             // Check whether reversed name is equal without case checking
             if (name.equalsIgnoreCase(reversedName)) {

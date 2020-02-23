@@ -30,6 +30,7 @@ public class SwappingValuesUsingTemp_Array2 {
         //swap value of 1 and 2.
         int tem2 = numbers [1];
 
+
         numbers [1] = numbers[2];
         numbers[2] = tem2;
         System.out.println("numbers " + Arrays.toString(numbers) );

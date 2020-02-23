@@ -6,6 +6,7 @@ public class ArraySummaryLengthLastItem1 {
     public static void main(String[] args) {
 
 
+
         int [] myNumbers = new int [4];   // 4 is item count
 
         myNumbers[0]  = 10 ;

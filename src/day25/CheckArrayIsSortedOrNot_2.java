@@ -20,7 +20,7 @@ public class CheckArrayIsSortedOrNot_2 {
             // keep repeating until there is no more item
 
             // print is item1 is less than item 2
-            System.out.println(" is " + nums[x] + " less than  " + nums[x + 1] + " ? " + (nums[x] < nums[x + 1]));
+            System.out.println(" Is " + nums[x] + " less than  " + nums[x + 1] + " ? " + (nums[x] < nums[x + 1]));
 
             if (!(nums[x] < nums[x + 1])) {
                 System.out.println("ARRAY IS NOT SORTED , NO POINT CHECKING THE REST");
