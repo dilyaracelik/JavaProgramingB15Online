@@ -3,6 +3,7 @@ package day64;
 
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Vector;
 
 public class Deque_for_LIFO {
 
