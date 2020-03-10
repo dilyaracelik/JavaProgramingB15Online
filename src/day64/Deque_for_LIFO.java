@@ -6,16 +6,24 @@ import java.util.LinkedList;
 import java.util.Vector;
 
 public class Deque_for_LIFO {
+public static void main(String[] args) {
 
-    public static void main(String[] args) {
+    // How do we implement a LifoQueue if not using old class called Stack
+    // we can use any of Deque interface implementation
+    // Deque is a double ended Queue so we can add item as always
+    // and when we remove we can use removeLast last method to achieve Last in first out
 
-        Deque<String> task = new LinkedList<>();
-        task.add("review the class");
-        task.add("do HW");
-        task.add("study etc");
-        System.out.println(task.removeFirst());
+    Deque<String> lifoQue = new LinkedList<>();
+    lifoQue.add("review the class");
+    lifoQue.add("do your homework");
+    lifoQue.add("attend the class");
+    lifoQue.add("Say bye to Java");
 
+    // this is how we remove
+    System.out.println("lifoQue.removeLast() = " + lifoQue.removeLast());
+    System.out.println("lifoQue.removeLast() = " + lifoQue.removeLast());
+    System.out.println("lifoQue.removeLast() = " + lifoQue.removeLast());
+    System.out.println("lifoQue.removeLast() = " + lifoQue.removeLast());
 
-
-    }
+}
 }

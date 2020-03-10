@@ -23,11 +23,12 @@ public class MapKeySetView {
         // --- Set  because keys are unique
 
         // we can use keySet() method of Map to get Set of Keys
-        // this Set is strictly connected to thr original map
+        // this Set is strictly connected to the original map
         // if you remove an item , map entry with this key will be also removed
         Set<String> allNames = groceryPriceMap.keySet();
-//        System.out.println("allNames = " + allNames);
-//        allNames.remove("Tomato");
+        System.out.println("allNames = " + allNames);
+
+        //        allNames.remove("Tomato");
 //        System.out.println("allNames no tomato = " + allNames);
 //
 //        System.out.println("groceryPriceMap after = " + groceryPriceMap);
@@ -37,9 +38,6 @@ public class MapKeySetView {
         namesCopy.remove("Tomato");
         System.out.println("namesCopy = " + namesCopy);
         System.out.println("groceryPriceMap = " + groceryPriceMap);
-
-
-
 
 
     }

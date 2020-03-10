@@ -16,16 +16,25 @@ public class MapPractice {
         groupMap.put("Achievers", Arrays.asList("Maiia", "Anastasia", "Zaki", "Toyly", "Like"));
         groupMap.put("BugHunter", Arrays.asList("Ayse", "Rabiyam", "Gulzina"));
         groupMap.put("BugBusters", Arrays.asList("Rukhshona", "Fariza", "Seyma", "Sumeyyra", "Huvayda"));
-        System.out.println(groupMap);
+        //System.out.println("groupMap = " + groupMap);
 
-        groupMap.forEach((groupCode,allmembers) -> System.out.println(groupCode+ " " + allmembers));
+        groupMap.forEach((groupCode, allMembers) -> System.out.println("groupCode = " + groupCode + "\n\t members : " + allMembers));
+        // get Toyly , he is at index 3
         System.out.println(groupMap.get("Achievers").get(3));
+        // check whether this map has Gulzina or not in BugHunter ?
+        // get method from Map | contains method is coming from list
+        // because the values are List<String> get method will return the entire List
+        System.out.println(groupMap.get("BugHunter").contains("Gulzina"));
+        // we want to add a group entry so we can add or remove members from the group
 
-        System.out.println(groupMap.get("BugHunter").indexOf("Gulzina"));
-groupMap.put("Yankees", new ArrayList<>(Arrays.asList("Furkan", "Daria", "Sevim")));
+        groupMap.put("Justice League", new ArrayList<>(Arrays.asList("Superman", "Batman", "WonderWoman")));
+        groupMap.get("Justice League").add("Flash");
+        System.out.println("groupMap.get(\"Justice League\") = " + groupMap.get("Justice League"));
 
-      groupMap.get("Yankees").add("Berk");
+        // the key for the Map should be a type Immutable
 
-        System.out.println(groupMap.get("Yankees"));
 
-    }}
+    }
+
+
+}

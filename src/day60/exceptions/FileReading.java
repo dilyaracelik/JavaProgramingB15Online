@@ -2,6 +2,7 @@ package day60.exceptions;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
@@ -23,7 +24,6 @@ public class FileReading {
         // reading a file is one line of code as below
         // it return List of String as each line as element
         try {
-
             List<String> allLines = Files.readAllLines(Paths.get("src/day60/note.txt"));
             System.out.println("allLines = " + allLines);
 

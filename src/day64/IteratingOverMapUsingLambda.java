@@ -6,7 +6,6 @@ import java.util.Map;
 public class IteratingOverMapUsingLambda {
     public static void main(String[] args) {
 
-
         Map<String, Double> groceryPriceMap = new HashMap<>();
         groceryPriceMap.put("Tomato", 1.99);
         groceryPriceMap.put("Patato", 2.99);
@@ -14,9 +13,12 @@ public class IteratingOverMapUsingLambda {
         groceryPriceMap.put("Banana", 1.99);
         groceryPriceMap.put("Apple", 1.89);
 
-        groceryPriceMap.forEach((name,price)-> System.out.println(name +" " + price));
+        // COMPLETELY OPTIONAL .
 
+        groceryPriceMap.forEach((name, price) -> System.out.println("name = " + name + " price = " + price));
 
 
     }
+
+
 }
