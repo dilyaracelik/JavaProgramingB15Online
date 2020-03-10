@@ -14,7 +14,6 @@ Division operator "num/10", will eliminate the last number and give the rest.
         int num = 12345;
         int evenCount = 0;
         int oddCount = 0;
-
         while (num > 0) {
             int remainder = num % 10; // 4  --- I extracted the last digit and then I will check if even or not
             if (num % 2 == 0) { // even num
