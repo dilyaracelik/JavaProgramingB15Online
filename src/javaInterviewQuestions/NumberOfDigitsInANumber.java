@@ -30,6 +30,5 @@ When we divide a number with 10, we eliminate the last digit.
             count1++;
         }
         System.out.println("count1 = " + count1);
-
     }
 }
