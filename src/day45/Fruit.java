@@ -6,6 +6,7 @@ public class Fruit {
     // TO AVOID UNNECESSARY ERROR OF SUB CLASS CALLING
     // SUPER CLASS'S NO ARG CONSTRUCTOR
     public Fruit() {
+
         System.out.println("No Arg Fruit constructor");
     }
 

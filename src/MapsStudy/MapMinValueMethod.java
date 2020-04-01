@@ -7,7 +7,7 @@ public class MapMinValueMethod {
 
 
         Map<String, Integer> nums = new HashMap<>();
-        nums.put("Sevim", 15);
+        nums.put("Erin", 15);
         nums.put("Berk", 3);
         nums.put("Picasso", 20);
 

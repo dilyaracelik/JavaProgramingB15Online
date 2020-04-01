@@ -47,10 +47,12 @@ public class SlackAdminUser extends SlackUser{
 
 
     public void sendAtChannelMessage() {
+
         System.out.println(name + " sending channel message");
     }
 
     public void deleteMessage() {
+
         System.out.println(name + " deleting slack messages");
     }
 

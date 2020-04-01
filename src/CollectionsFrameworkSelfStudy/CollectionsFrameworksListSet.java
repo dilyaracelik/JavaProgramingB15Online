@@ -18,6 +18,7 @@ public class CollectionsFrameworksListSet {
         System.out.println(strList);
         Vector<Integer> v1 = new Vector<>();
         v1.add(20);
+        System.out.println("v1 = " + v1);
 
         System.out.println("=========================");
 

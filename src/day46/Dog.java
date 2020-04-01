@@ -6,7 +6,6 @@ public class Dog extends Animal {
         Dog twix = new Dog();
         twix.speak();
 
-
     }
     // WHY DO WE WANT TO CALL SUPER CLASS VERSION OF OVERRIDDEN METHOD
     // We want to build on top of what's already written

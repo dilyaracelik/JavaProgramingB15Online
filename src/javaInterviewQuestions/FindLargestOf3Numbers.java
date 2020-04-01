@@ -18,6 +18,14 @@ public class FindLargestOf3Numbers {
             System.out.println(num3 + " is largest number.");
         }
 
+        System.out.println();
+
+//Ternary operator
+
+        int largest = num1 > num2 ? num1 : num2;
+        largest = num3 > largest ? num3 : largest;
+        System.out.println("largest = " + largest);
+
 
     }
 }
