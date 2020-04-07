@@ -2,9 +2,12 @@ package javaInterviewQuestions;
 
 public class SearchingAnElementInArray {
 
+    //https://www.youtube.com/watch?v=Ze7Yecs49MA&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&index=21
+
     public static void main(String[] args) {
 
         int[] arr = {2, 2, 34, 56, 6};
+
         int num = 6;
 
         boolean flag = false;
@@ -27,6 +30,5 @@ public class SearchingAnElementInArray {
 
 
     }
-
-
 }
+
