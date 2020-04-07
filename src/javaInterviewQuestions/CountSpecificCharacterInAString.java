@@ -10,11 +10,11 @@ public class CountSpecificCharacterInAString {
 
         int fullLenght = s.length();
 
-        int lengthWithoutas = s.replace("g", "").length();
+        int lengthWithoutas = s.replace("a", "").length();
 
         int numOfas = fullLenght - lengthWithoutas;
 
-        System.out.println("numOfas = " + numOfas);
+        System.out.println("Number of a's in the string = " + numOfas);
 
 
     }
