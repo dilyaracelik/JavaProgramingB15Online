@@ -13,7 +13,6 @@ public class CountOfWordsInString {
         System.out.println(arr.length);
 
         System.out.println("=========================");
-
         //2nd way
         String str2 = "I love watching horror movies";
 
