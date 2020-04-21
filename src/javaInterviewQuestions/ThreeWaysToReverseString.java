@@ -4,7 +4,7 @@ public class ThreeWaysToReverseString {
     public static void main(String[] args) {
 
 
-        String str = "Sevim";
+        String str = "Sevi";
         
         StringBuffer strBuf = new StringBuffer(str);
         System.out.println(strBuf.reverse());
