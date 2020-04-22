@@ -8,7 +8,7 @@ public class MapFrequencyOfCharacters {
     public static void main(String[] args) {
 //Write a method that prints the frequency of each character from a String
 
-        String str = "sevimm";
+        String str = "Write a method that prints the frequency of each character from a String";
         frequencyTest(str);
 
 
