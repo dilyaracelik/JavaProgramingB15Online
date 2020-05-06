@@ -1,3 +1,5 @@
-/.idea/
-/out/
-/src/BootCamp/reverseWordsSentenceChangingPunctiation.java
+.idea
+*.iml
+target
+.DS_Store
+test-output

@@ -14,9 +14,7 @@ public class ReverseEachWordInAString {
             sb.reverse();
 
             reversed += sb.toString() + " ";
-
         }
-
         System.out.println("reversed = " + reversed);
 
 
