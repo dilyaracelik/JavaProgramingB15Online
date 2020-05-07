@@ -24,15 +24,25 @@ public class PalindromeTest {
         // name= name.replace(" ", ""); spaceleri atarsak nurses run mesela palindrome olur
 
             // Check whether reversed name is equal without case checking
-            if (name.equalsIgnoreCase(reversedName)) {
+        if (name.equalsIgnoreCase(reversedName)) {
 
-                System.out.println("PALINDROME TEST HAS PASSED");
+            System.out.println("PALINDROME TEST HAS PASSED");
 
-            } else {
-                System.out.println("PALINDROME TEST HAS FAILED");
-            }
-
-
+        } else {
+            System.out.println("PALINDROME TEST HAS FAILED");
         }
 
+
     }
+
+    //method 4 reversing a string
+    public static String reverse(String str) {
+        String result = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            result += str.charAt(i);
+        }
+        return result;
+    }
+
+
+}
