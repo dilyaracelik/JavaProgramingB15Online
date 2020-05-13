@@ -26,5 +26,6 @@ public class IteratorMethod {
         }
         System.out.println(nums);
 
+
     }
 }
