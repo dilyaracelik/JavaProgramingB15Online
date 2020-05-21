@@ -6,13 +6,13 @@ public class ReverseAnInteger {
 
 
         int num = 1234;
-        int reversed=0;  //store all my reversed numbers here
+        int reversed = 0;  //store all my reversed numbers here
 
-        while(num!= 0){ // while num not equal to 0
-//any number divided by 10 will give the last digit
-        reversed= reversed*10 + num%10;   //reversed is 0 -> 0*10= 0 +  num%10= 4 = result is 4, I have 4 here
-         //this will eliminate the last digit
-            num = num/10; //123 olur, 4 is eliminated
+        while (num != 0) { // while num not equal to 0, 0 olunca numaralar bitmistir
+            //any number divided by 10 will give the last digit
+            reversed = reversed * 10 + num % 10;   //reversed is 0 -> 0*10= 0 +  num%10= 4 = result is 4, I have 4 here
+            //this will eliminate the last digit
+            num = num / 10; //123 olur, 4 is eliminated
         }
         System.out.println("reversed = " + reversed);
 
