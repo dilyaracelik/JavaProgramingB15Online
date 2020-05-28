@@ -11,6 +11,8 @@ it will give us last digit. So we can compare/ So we extract the number.
 Division operator "num/10", will eliminate the last number and give the rest.
 
  */
+
+
         int num = 12345;
         int evenCount = 0;
         int oddCount = 0;
